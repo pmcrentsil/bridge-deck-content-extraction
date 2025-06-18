@@ -16,15 +16,20 @@ It uses:
 ---
 
 ## 🧱 Architecture
-
-```mermaid
-flowchart TD
-    A[Bridge Deck PDF / Image] --> B[Azure Document Intelligence]
-    B --> C[OCR Text + Image Crops]
-    C --> D[Prompt Template (Jinja2)]
-    D --> E[Azure OpenAI (GPT-4 Vision)]
-    E --> F[Extracted Values (JSON)]
-    F --> G[Output for downstream analysis]
+```
+Bridge Deck PDF/Image
+        ↓
+Azure Document Intelligence (OCR)
+        ↓
+Image Crops + Text
+        ↓
+Prompt Template (Jinja2)
+        ↓
+Azure OpenAI (GPT-4 Vision)
+        ↓
+Extracted JSON Values
+        ↓
+Downstream Use (analysis, matching, UI, etc.)
 ```
 
 ---
