@@ -1,0 +1,93 @@
+{
+  "fileName": "0007028_35-0005_FINAL_122418.pdf",
+  "bridge_number": "0007028",
+  "images_metadata": [
+    {
+      "page_number": 0,
+      "image_path": "input/images/0007028/cropped/0007028_35-0005_FINAL_122418_page1_cropped.png",
+      "status": true
+    }
+  ],
+  "extracted_Reusts": [
+    {
+      "DOH_D": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "8 1/4\""
+        }
+      ],
+      "DOH_L": [
+        {
+          "ConfidenceLevel": "low",
+          "Value": "3'-0\""
+        }
+      ],
+      "GIRD_SPACE": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "8'-0\""
+        }
+      ],
+      "D_WIDTH": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "52'-0\""
+        }
+      ],
+      "DOH_R": [
+        {
+          "ConfidenceLevel": "low",
+          "Value": "3'-7 1/2\""
+        }
+      ],
+      "SD_TOTAL": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "8 1/4\""
+        }
+      ],
+      "D_EXT": [
+        {
+          "ConfidenceLevel": "medium",
+          "Value": "10 1/2\""
+        }
+      ],
+      "D_INT": [
+        {
+          "ConfidenceLevel": "medium",
+          "Value": "10 1/2\""
+        }
+      ],
+      "TD_CLR": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "2 3/4\""
+        }
+      ],
+      "TD_SIZE_SPA": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "500A BARS AT 5 1/2\""
+        }
+      ],
+      "TDOH_SIZE_SPA": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "500C AT EVERY OTHER 500"
+        }
+      ],
+      "BD_SIZE_SPA": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "501A AT 9\""
+        }
+      ],
+      "BD_CLR": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "1\""
+        }
+      ]
+    }
+  ]
+}

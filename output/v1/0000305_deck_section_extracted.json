@@ -1,0 +1,93 @@
+{
+  "fileName": "0000305_35-0006_FINAL_100317.pdf",
+  "bridge_number": "0000305",
+  "images_metadata": [
+    {
+      "page_number": 0,
+      "image_path": "input/images/0000305/cropped/0000305_35-0006_FINAL_100317_page1_cropped.png",
+      "status": true
+    }
+  ],
+  "extracted_Reusts": [
+    {
+      "DOH_D": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "8 3/8\""
+        }
+      ],
+      "DOH_L": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "3'-7 1/2\""
+        }
+      ],
+      "GIRD_SPACE": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "9'-0\""
+        }
+      ],
+      "D_WIDTH": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "43'-3\""
+        }
+      ],
+      "DOH_R": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "3'-7 1/2\""
+        }
+      ],
+      "SD_TOTAL": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "8 3/8\""
+        }
+      ],
+      "D_EXT": [
+        {
+          "ConfidenceLevel": "low",
+          "Value": "Not Found"
+        }
+      ],
+      "D_INT": [
+        {
+          "ConfidenceLevel": "low",
+          "Value": "Not Found"
+        }
+      ],
+      "TD_CLR": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "2 3/4\""
+        }
+      ],
+      "TD_SIZE_SPA": [
+        {
+          "ConfidenceLevel": "medium",
+          "Value": "500A AT 5 7/8\""
+        }
+      ],
+      "TDOH_SIZE_SPA": [
+        {
+          "ConfidenceLevel": "medium",
+          "Value": "402 AT EVERY OTHER 500A"
+        }
+      ],
+      "BD_SIZE_SPA": [
+        {
+          "ConfidenceLevel": "medium",
+          "Value": "501A UNDER EVERY 500A; 501B UNDER EVERY 500B"
+        }
+      ],
+      "BD_CLR": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "1\""
+        }
+      ]
+    }
+  ]
+}

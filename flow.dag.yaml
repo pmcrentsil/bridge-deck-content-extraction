@@ -1,0 +1,70 @@
+inputs:
+  fileName:
+    type: string
+    default: 0007023_deck_plan.pdf
+  bridge_number:
+    type: string
+    default: "0007023"
+outputs:
+  image_processing:
+    type: string
+    reference: ${file_processing.output}
+  diagram_selection:
+    type: string
+    reference: ${diagram_selection.output}
+  content_extraction:
+    type: string
+    reference: ${content_extraction.output}
+nodes:
+- name: file_processing
+  type: python
+  source:
+    type: code
+    path: file_processing.py
+  inputs:
+    fileName: ${inputs.fileName}
+    bridge_number: ${inputs.bridge_number}
+- name: diagram_selection
+  type: python
+  source:
+    type: code
+    path: diagram_selection.py
+  inputs:
+    system_prompt: ${system_prompt_diagram_selection.output}
+    images_meta: ${file_processing.output}
+- name: system_prompt_diagram_selection
+  type: prompt
+  source:
+    type: code
+    path: system_prompt_diagram_selection.jinja2
+  inputs: {}
+- name: content_extraction
+  type: python
+  source:
+    type: code
+    path: content_extraction_deckSection.py
+  inputs:
+    system_prompt: ${system_prompt_content_extraction.output}
+    images_meta: ${diagram_selection.output}
+    few_shot_prompt: ${few_shot_prompt_image.output}
+    page_text: ${parse_doc_intelligence.output}
+- name: system_prompt_content_extraction
+  type: prompt
+  source:
+    type: code
+    path: system_prompt_content_extraction.jinja2
+  inputs: {}
+- name: few_shot_prompt_image
+  type: prompt
+  source:
+    type: code
+    path: few_shot_prompt_image.jinja2
+  inputs: {}
+- name: parse_doc_intelligence
+  type: python
+  source:
+    type: code
+    path: parse_doc_intelligence.py
+  inputs:
+    fiLeName: ${inputs.fileName}
+    table_format: md

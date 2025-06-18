@@ -1,0 +1,280 @@
+{
+  "fileName": "0007044_deck_plan.pdf",
+  "bridge_number": "0007044",
+  "images_metadata_cropped": [
+    {
+      "page_number": 0,
+      "image_path": "input/images/0007044/cropped/0007044_deck_plan_page1_cropped.png",
+      "status": true
+    },
+    {
+      "page_number": 1,
+      "image_path": "input/images/0007044/cropped/0007044_deck_plan_page2_cropped.png",
+      "status": true
+    },
+    {
+      "page_number": 2,
+      "image_path": "input/images/0007044/cropped/0007044_deck_plan_page3_cropped.png",
+      "status": true
+    }
+  ],
+  "images_metadata_original": [
+    {
+      "page_number": 0,
+      "image_path": "input/images/0007044/original/0007044_deck_plan_page1.png",
+      "status": true
+    },
+    {
+      "page_number": 1,
+      "image_path": "input/images/0007044/original/0007044_deck_plan_page2.png",
+      "status": true
+    },
+    {
+      "page_number": 2,
+      "image_path": "input/images/0007044/original/0007044_deck_plan_page3.png",
+      "status": true
+    }
+  ],
+  "extracted_Reusts": [
+    {
+      "DOH_D": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "8\""
+        }
+      ],
+      "DOH_L": [
+        {
+          "ConfidenceLevel": "medium",
+          "Value": "3'-0 1/2\""
+        }
+      ],
+      "GIRD_SPACE": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "7'-1\""
+        }
+      ],
+      "D_WIDTH": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "41'-6\""
+        }
+      ],
+      "DOH_R": [
+        {
+          "ConfidenceLevel": "medium",
+          "Value": "3'-0 1/2\""
+        }
+      ],
+      "SD_TOTAL": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "7 3/4\""
+        }
+      ],
+      "D_EXT": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "10 1/4\""
+        }
+      ],
+      "D_INT": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "10\""
+        }
+      ],
+      "TD_CLR": [
+        {
+          "ConfidenceLevel": "medium",
+          "Value": "2 1/4\""
+        }
+      ],
+      "TD_SIZE_SPA": [
+        {
+          "ConfidenceLevel": "medium",
+          "Value": "500 AT 6 1/2\""
+        }
+      ],
+      "TDOH_SIZE_SPA": [
+        {
+          "ConfidenceLevel": "medium",
+          "Value": "401 AT EVERY 500"
+        }
+      ],
+      "BD_SIZE_SPA": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "501 AT 9\""
+        }
+      ],
+      "BD_CLR": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "1\""
+        }
+      ]
+    },
+    {
+      "DOH_D": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "8\""
+        }
+      ],
+      "DOH_L": [
+        {
+          "ConfidenceLevel": "low",
+          "Value": "3'-6\""
+        }
+      ],
+      "GIRD_SPACE": [
+        {
+          "ConfidenceLevel": "medium",
+          "Value": "7'-2 5/16\""
+        }
+      ],
+      "D_WIDTH": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "41'-6\""
+        }
+      ],
+      "DOH_R": [
+        {
+          "ConfidenceLevel": "low",
+          "Value": "3'-6\""
+        }
+      ],
+      "SD_TOTAL": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "7 3/4\""
+        }
+      ],
+      "D_EXT": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "11 1/2\""
+        }
+      ],
+      "D_INT": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "11 1/8\""
+        }
+      ],
+      "TD_CLR": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "2 1/4\""
+        }
+      ],
+      "TD_SIZE_SPA": [
+        {
+          "ConfidenceLevel": "medium",
+          "Value": "500 AT 6 1/2\""
+        }
+      ],
+      "TDOH_SIZE_SPA": [
+        {
+          "ConfidenceLevel": "medium",
+          "Value": "401A AT EVERY 500"
+        }
+      ],
+      "BD_SIZE_SPA": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "501 AT 9\""
+        }
+      ],
+      "BD_CLR": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "1\""
+        }
+      ]
+    },
+    {
+      "DOH_D": [
+        {
+          "ConfidenceLevel": "medium",
+          "Value": "8\""
+        }
+      ],
+      "DOH_L": [
+        {
+          "ConfidenceLevel": "medium",
+          "Value": "VARIES"
+        }
+      ],
+      "GIRD_SPACE": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "7'-6 3/16\""
+        }
+      ],
+      "D_WIDTH": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "41'-6\""
+        }
+      ],
+      "DOH_R": [
+        {
+          "ConfidenceLevel": "medium",
+          "Value": "VARIES"
+        }
+      ],
+      "SD_TOTAL": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "7 3/4\""
+        }
+      ],
+      "D_EXT": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "9 1/4\""
+        }
+      ],
+      "D_INT": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "9 1/4\""
+        }
+      ],
+      "TD_CLR": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "2 1/4\""
+        }
+      ],
+      "TD_SIZE_SPA": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "500 AT 6 1/2\""
+        }
+      ],
+      "TDOH_SIZE_SPA": [
+        {
+          "ConfidenceLevel": "medium",
+          "Value": "401B AT EVERY 500"
+        }
+      ],
+      "BD_SIZE_SPA": [
+        {
+          "ConfidenceLevel": "high",
+          "Value": "501 AT 9\""
+        }
+      ],
+      "BD_CLR": [
+        {
+          "ConfidenceLevel": "medium",
+          "Value": "1\""
+        }
+      ]
+    }
+  ]
+}
